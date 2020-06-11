@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Detail extends StatelessWidget {
-  String time, url, titulos;
+  final String time, url, titulos;
 
   Detail(this.time, this.url, this.titulos);
 

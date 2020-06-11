@@ -1,27 +1,26 @@
 import 'package:flutter/material.dart';
 import 'Detail.dart';
 
-@immutable
 class Home extends StatelessWidget {
-  String time1 = "Ceará";
-  String urlTime1 =
+  final String time1 = "Ceará";
+  final String urlTime1 =
       "https://2.bp.blogspot.com/-BL4yHhRNiv4/WMF6f5IvFrI/AAAAAAAAmN8/xljfxwx4LVcPEOBKQr8lzUzGwW4dtyenQCLcB/s320/2rcc4fl.png";
-  String titulosTime1 = "3";
+  final String titulosTime1 = "3";
 
-  String time2 = "Palmeiras";
-  String urlTime2 =
+  final String time2 = "Palmeiras";
+  final String urlTime2 =
       "https://logodownload.org/wp-content/uploads/2015/05/palmeiras-logo-4.png";
-  String titulosTime2 = "5";
+  final String titulosTime2 = "5";
 
-  String time3 = "Corinthians";
-  String urlTime3 =
+  final String time3 = "Corinthians";
+  final String urlTime3 =
       "https://static.wixstatic.com/media/29c778_c2ce4ad26fe149599db7e007e397c6ae~mv2.png/v1/fill/w_280,h_280,fp_0.50_0.50/29c778_c2ce4ad26fe149599db7e007e397c6ae~mv2.png";
-  String titulosTime3 = "7";
+  final String titulosTime3 = "7";
 
-  String time4 = "Fluminense";
-  String urlTime4 =
+  final String time4 = "Fluminense";
+  final String urlTime4 =
       "https://upload.wikimedia.org/wikipedia/commons/a/ad/Fluminense_FC_escudo.png";
-  String titulosTime4 = "2";
+  final String titulosTime4 = "2";
 
   @override
   Widget build(BuildContext context) {
